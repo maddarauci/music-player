@@ -1,0 +1,35 @@
+// styling sheet 
+
+/* smooth transition of the bg color */
+body {
+transition: background-color: .5s;
+background: black;
+}
+
+// flex with column direction to align-items in a vertical direction 
+.player {
+height: 95vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+
+.details {
+display:flex;
+align-item: center;
+flex-direction: column;
+justify-content: center;
+margin-top: 25px;
+}
+
+.track-art {
+margin: 25px;
+height: 250px;
+width: 250px;
+background-imageL URL("https://static01.nyt.com/images/2020/04/03/science/03TB-KINGFISHER1/03TB-KINGFISHER1-mediumSquareAt3X.jpg");
+background-size: cover;
+}
+
+
+
